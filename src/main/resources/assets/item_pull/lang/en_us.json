@@ -1,0 +1,8 @@
+{
+    "text.item_pull.title": "Item Pull Settings",
+    "text.item_pull.group.general": "Item Pull Settings",
+    "text.item_pull.option.radius": "Radius",
+    "text.item_pull.option.radius.tooltip": "Radius (in blocks) around the aimed item to pull matching items",
+    "text.item_pull.option.match_nbt": "Match NBT",
+    "text.item_pull.option.match_nbt.tooltip": "Only pull items with identical NBT data. Disable to pull all items of the same type"
+}
