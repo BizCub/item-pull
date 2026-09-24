@@ -14,7 +14,7 @@ multiloader {
     versionRange(version = "1.20.1", to = "1.20.4")
 
     addDependency(
-        dependency = getSimpleConfigLibDep("2.1"),
+        dependency = getSimpleConfigLibDep(),
         isPublishDepEnabled = true
     )
 
