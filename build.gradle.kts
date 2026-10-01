@@ -3,8 +3,8 @@ plugins {
 }
 
 multiloader {
-    setMREnvironment(mrEnvs.clientOnly)
-    setCFEnvironment(cfEnvs.client)
+    setMREnvironment(mrEnvs.serverOnly)
+    setCFEnvironment(cfEnvs.server)
 
     versionRange(version = "26.1.2", to = "latest")
     versionRange(version = "1.21.3", to = "1.21.11")
@@ -23,8 +23,7 @@ multiloader {
             dependency = "net.fabricmc:fabric-loader:${getDep("fabric")}"
         )
         addDependency(
-            dependency = "net.fabricmc.fabric-api:fabric-api:${getDep("fabric-api")}",
-            isPublishDepEnabled = true
+            dependency = "net.fabricmc.fabric-api:fabric-api:${getDep("fabric-api")}"
         )
         addDependency(
             dependency = "com.terraformersmc:modmenu:${getDep("modmenu")}",
